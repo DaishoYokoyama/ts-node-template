@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "commonjs",
     "target": "ESNext",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "noEmit": true,
-    "strict": true,
-    "lib": ["ES2020", "DOM"]
-  }
+    "strict": true
+  },
+  "exclude": ["node_modules"]
 }
