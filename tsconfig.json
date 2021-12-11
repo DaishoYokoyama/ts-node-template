@@ -1,19 +1,13 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
     "target": "ESNext",
-    "module": "esnext",
     "moduleResolution": "node",
-    "strict": true,
-    "sourceMap": true,
-    "resolveJsonModule": true,
     "esModuleInterop": true,
-    "strictFunctionTypes": false,
-    "baseUrl": ".",
-    "skipLibCheck": true,
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "types": ["node"]
-  },
-  "exclude": ["node_modules"]
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "strict": true,
+    "lib": ["ES2020", "DOM"]
+  }
 }
