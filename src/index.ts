@@ -1,4 +1,4 @@
-const main = () => {
+const main = async () => {
   console.info('Hello');
 };
 
