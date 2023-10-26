@@ -1,7 +1,7 @@
 {
-  "name": "ts-node-starter",
+  "name": "ts-node-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typescript + node.js templates to quickly create tools",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
